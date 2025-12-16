@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color:#2D2E2E;
-    color: white;
 }
 
 nav {
@@ -41,9 +40,10 @@ nav li:hover {
 
 header {
     font-family: "Bodoni Moda", serif;
-    font-size: 1.2rem;
-    border-radius: 50px;
+    font-size: 1.5rem;
+    border-radius: 100px;
     background-color: #82A3A1;
+    color: darkslategray;
     padding: 10px;
     text-align: center;
 }
@@ -53,11 +53,30 @@ form {
     background-color: #E88D67; 
     padding: 20px;
     margin: 20px;
+    font-size: 1.2rem;
 }
 
 div {
     padding: 10px;
     margin: 8px 0;
+}
+
+label {
+    margin-bottom: 8px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: #82A3A1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #82A3A1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 footer {

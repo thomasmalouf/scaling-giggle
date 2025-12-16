@@ -11,6 +11,8 @@ header {
     padding: 10px;
     border-radius: 100px;
     color: darkslategray;
+    font-family: "Bodoni Moda", serif;
+    font-size: 1.5rem;
 }
 
 h2 {
@@ -54,11 +56,11 @@ nav li:hover {
 }
 
 main {
+    font-family: "Open Sans", sans-serif;
     line-height: 40px;
     padding: 40px;
     background-color:rgb(233, 237, 241);
     margin: 20px;
-    padding-bottom: 70px;
     border-radius: 100px;
     color: slategrey;
     font-size: 1.2rem;

@@ -49,9 +49,9 @@ nav li:hover {
 }
 
 h1 {
- font-family: "Bodoni Moda", serif;
- font-size: 5rem;
- color: darkslategray;
+    font-family: "Bodoni Moda", serif;
+    font-size: 5rem;
+    color: darkslategray;
 }
 
 h2 {
@@ -114,14 +114,10 @@ p {
     margin: 20px;
 }
 
-#block3 img {
+#block3 img, small {
     float: left;
     border-radius: 40px;
     width: 500px;
-}
-
-small {
-    
 }
 
 footer {
