@@ -1,4 +1,91 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(190, 197, 206);
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: row;
+    letter-spacing: 2px;
+    list-style-type: none;
+    background-color: lightgray;
+    margin: 0;
+    padding: 40px;
+    font-size: 1.3rem;
+}
+
+nav li {
+    padding: 0 40px;
+}
+
 h1 {
  font-family: "Bodoni Moda", serif;
- font-size: 3rem;
+ font-size: 5rem;
+ color: darkslategray;
+}
+
+h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 3rem;
+    color: darkslategray;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color: slategray;
+}
+
+#block1 {
+    line-height: 40px;
+    padding: 40px;
+    background-color:rgb(233, 237, 241);
+    text-align: right;
+    padding-bottom: 70px;
+}
+
+#block1 img {
+    float: left;
+    border-radius: 40px;
+    width: 500px;
+}
+
+#block2 {
+    line-height: 40px;
+    padding: 40px;
+    background-color: rgb(224, 229, 235);
+    padding-bottom: 70px;
+}
+
+#block2 img {
+    float: right;
+    margin: 0 0 0 40px;
+    border-radius: 40px;
+}
+
+#block2 ul {
+    list-style-type: square;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color: slategray;
+}
+
+#block3 {
+    line-height: 40px;
+    padding: 40px;
+    background-color: rgb(233, 237, 241);
+    text-align: right;
+    padding-bottom: 150px;
+}
+
+#block3 img {
+    float: left;
+    border-radius: 40px;
+    width: 500px;
+}
+
+#block3 p {
+    padding-top: 40px;
 }
