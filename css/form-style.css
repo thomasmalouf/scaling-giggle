@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#2D2E2E;
+    color: white;
+}
+
+nav {
+    position:sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: 2px;
+    list-style-type: none;
+    background-color: #9FC490;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 200px;
+}
+
+nav li {
+    padding: 40px;
+    background-color: #82A3A1;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color:  rgb(224, 229, 235);
+}
+
+nav li:hover {
+    background-color: #B1CBBB;
+}
+
+header {
+    font-family: "Bodoni Moda", serif;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    background-color: #82A3A1;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    border-radius: 50px;
+    background-color: #E88D67; 
+    padding: 20px;
+    margin: 20px;
+}
+
+div {
+    padding: 10px;
+    margin: 8px 0;
+}
+
+footer {
+    padding: 20px;
+    color:#888a8a
+}

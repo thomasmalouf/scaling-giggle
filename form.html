@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form-style.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="lessons.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Sign Up for Lessons</h1>
+    </header>
+
+    <main>
+        <form method="post" name="lesson" data-netlify="true">
+            
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div>
+                <label for="instrument-type">Instrument Type:</label>
+                <select id="instrument-type" name="instrument-type" required>
+                    <option value="piano">Piano</option>
+                    <option value="guitar">Guitar</option>
+                    <option value="drums">Drums</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="notes">Additional Notes:</label>
+                <textarea id="notes" name="notes"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <small>For more questions call (203) - 123 - 4567 or email maloufmusic@mml.com.</small> <br>
+        <small>&copy;2024 Malouf Music Lessons. All rights reserved.</small>
+    </footer>
+</body>
+</html>
